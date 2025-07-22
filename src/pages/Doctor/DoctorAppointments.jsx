@@ -5,7 +5,7 @@ import { AppContext } from "../../context/AppContext";
 import { useEffect } from "react";
 import { assets } from "../../assets/assets";
 
-const doctorAppointments = () => {
+const DoctorAppointments = () => {
   const {
     dToken,
     appointments,
@@ -88,4 +88,4 @@ const doctorAppointments = () => {
   );
 };
 
-export default doctorAppointments;
+export default DoctorAppointments;
